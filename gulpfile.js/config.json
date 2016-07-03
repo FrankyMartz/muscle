@@ -1,0 +1,25 @@
+{
+  "root": {
+    "src": "src",
+    "dest": "dist"
+  },
+  "css": {
+    "extension": ["scss", "sass", "css"],
+    "sass": {
+      "lineNumbers": true,
+      "precision": 10
+    },
+    "autoprefixer": {
+      "cascade": true,
+      "remove": false,
+      "browsers": [
+        "last 3 version",
+        "> 10%"
+      ]
+    },
+    "csso": {
+      "restructure": false,
+      "debug": false
+    }
+  }
+}
