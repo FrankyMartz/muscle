@@ -1,0 +1,49 @@
+{
+  "name": "muscle",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Flexbox Grid Library",
+  "author": "Franky Martinez <frankymartz@gmail.com>",
+  "main": "index.js",
+  "homepage": "https://github.com/FrankyMartz/muscle#readme",
+  "bugs": {
+    "url": "https://github.com/FrankyMartz/muscle/issues"
+  },
+  "scripts": {
+    "test": "gulp --env=test",
+    "dev": "gulp --env=dev",
+    "prod": "gulp --env=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrankyMartz/muscle.git"
+  },
+  "keywords": [
+    "CSS",
+    "Flexbox",
+    "Grid"
+  ],
+  "engines": {
+    "node": "6.2.2",
+    "npm": "3.9.5",
+    "libsass": "3.3.6"
+  },
+  "devDependencies": {
+    "del": "^2.2.1",
+    "eslint": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-batch": "^1.0.5",
+    "gulp-csso": "^2.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.2.0",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.2",
+    "yargs": "^4.7.1"
+  }
+}

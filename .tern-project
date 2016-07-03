@@ -1,0 +1,17 @@
+{
+  "libs": [
+    "ecma5",
+    "ecma6",
+    "chai",
+    "underscore"
+  ],
+  "loadEagerly": [
+  ],
+  "plugins": {
+    "node": {},
+    "doc_comment": {
+      "strong": true
+    },
+    "complete_strings": {}
+  }
+}
